@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+fieldset {
+  border: 2px solid #eee;
+  border-radius: 5px;
+  padding: 20px;
+  width: 40%;
+  margin: 20vh auto;
+}
+
+legend {
+  background-color: #eee;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 20px;
+  font-weight: bold;
+  color:blue;
+}
+
+fieldset {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+input[type="number"] {
+  border-radius: 5px;
+  height: 30px;
+  padding: 10px;
+  width: 100px;
+  outline: none;
+  border: 1px solid #eee;
+}
+
+input[type="number"]:focus {
+  border: 2px solid blue;
+}
+
+label:last-child {
+  display: flex;
+  justify-content: space-between;
+}
+.hesabla {
+  height: 40px;
+  width: 100px;
+  border: none;
+  border-radius: 5px;
+  background-color: blue;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+button[type="reset"] {
+  height: 40px;
+  width: 100px;
+  border: none;
+  border-radius: 5px;
+  background-color: #eee;
+  color: black;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.result,
+.expression {
+  color: red;
+  font-size: 20px;
+  font-weight: bold;
+}
